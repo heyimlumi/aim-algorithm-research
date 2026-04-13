@@ -12,9 +12,8 @@
 Code snippets (scaling reminders)
 
 1.1 :
-float SmoothPitch = localviewangles.X + (noisyPitchDiff * deltaTime * pitchStrength); // same applied to Yaw
 
--
+float SmoothPitch = localviewangles.X + (noisyPitchDiff * deltaTime * pitchStrength); // same applied to Yaw
 
 2.1 & 4.1 :
 
