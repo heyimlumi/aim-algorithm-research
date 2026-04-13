@@ -1,3 +1,5 @@
+# This file and it's contents will be updated for each day during which testing occured.
+
 # 13.04.26
 
 # Algorithm :
