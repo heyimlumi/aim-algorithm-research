@@ -1,5 +1,7 @@
 # This file and it's contents will be updated for each day during which testing occured.
 
+# Objective : Create an algorithm capable of sustaining low smoothing while not getting hit by VACNet in Premier.
+
 # 13.04.26
 
 # Algorithm :
