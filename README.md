@@ -9,7 +9,7 @@
 3. Per-frame delta based noise system, applied to delta directly.
 4. Per-entity based aimbot strength variance
 
-Code snippets (scaling reminders)
+# Code snippets (scaling reminders)
 
 1.1 :
 
