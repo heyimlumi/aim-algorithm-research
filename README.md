@@ -13,8 +13,9 @@
 
 # 1.1 :
 
-            float SmoothPitch = localviewangles.X + (noisyPitchDiff * deltaTime * pitchStrength); // same applied to Yaw
-
+            float SmoothYaw = localviewangles.Y + (noisyYawDiff * deltaTime * yawStrength);
+            float SmoothPitch = localviewangles.X + (noisyPitchDiff * deltaTime * pitchStrength);
+            
 # 2.1 & 4.1 :
 
             if (ClosestEnemyToCrosshairPtr != lastTargetPtr)
