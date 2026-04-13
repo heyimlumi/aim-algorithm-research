@@ -13,7 +13,7 @@
 
 # 1.1 :
 
-float SmoothPitch = localviewangles.X + (noisyPitchDiff * deltaTime * pitchStrength); // same applied to Yaw
+            float SmoothPitch = localviewangles.X + (noisyPitchDiff * deltaTime * pitchStrength); // same applied to Yaw
 
 # 2.1 & 4.1 :
 
@@ -26,10 +26,10 @@ float SmoothPitch = localviewangles.X + (noisyPitchDiff * deltaTime * pitchStren
             }
 
 # 3.1 : 
-float noiseScale = 0.002f + (float)Math.Pow(deltaNormalized, 0.2f) * 0.40f;
+            float noiseScale = 0.002f + (float)Math.Pow(deltaNormalized, 0.2f) * 0.40f;
 
-float noisyYawDiff = YawDifferenceFinal + randomFloat(-1f, 1f) * noiseScale;
-float noisyPitchDiff = PitchDifferenceFinal + randomFloat(-0.60f, 0.60f) * noiseScale;
+            float noisyYawDiff = YawDifferenceFinal + randomFloat(-1f, 1f) * noiseScale;
+            float noisyPitchDiff = PitchDifferenceFinal + randomFloat(-0.60f, 0.60f) * noiseScale;
 
 # Results
 
