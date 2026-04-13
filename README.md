@@ -17,13 +17,13 @@ float SmoothPitch = localviewangles.X + (noisyPitchDiff * deltaTime * pitchStren
 
 # 2.1 & 4.1 :
 
-if (ClosestEnemyToCrosshairPtr != lastTargetPtr)
-{
-      lastTargetPtr = ClosestEnemyToCrosshairPtr;
-      yawVariance = randomFloat(overlay.AimbotCurveXMin, overlay.AimbotCurveXMax);
-      pitchVariance = randomFloat(overlay.AimbotCurveYMin, overlay.AimbotCurveYMax);
-      variance = randomFloat(-0.5f, 0.5f);
-}
+            if (ClosestEnemyToCrosshairPtr != lastTargetPtr)
+            {
+                lastTargetPtr = ClosestEnemyToCrosshairPtr;
+                yawVariance = randomFloat(overlay.AimbotCurveXMin, overlay.AimbotCurveXMax);
+                pitchVariance = randomFloat(overlay.AimbotCurveYMin, overlay.AimbotCurveYMax);
+                variance = randomFloat(-0.5f, 0.5f);
+            }
 
 # 3.1 : 
 float noiseScale = 0.002f + (float)Math.Pow(deltaNormalized, 0.2f) * 0.40f;
