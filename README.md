@@ -11,11 +11,11 @@
 
 # Code snippets (scaling reminders)
 
-1.1 :
+# 1.1 :
 
 float SmoothPitch = localviewangles.X + (noisyPitchDiff * deltaTime * pitchStrength); // same applied to Yaw
 
-2.1 & 4.1 :
+# 2.1 & 4.1 :
 
 if (ClosestEnemyToCrosshairPtr != lastTargetPtr)
 {
@@ -25,7 +25,7 @@ if (ClosestEnemyToCrosshairPtr != lastTargetPtr)
       variance = randomFloat(-0.5f, 0.5f);
 }
 
-3.1 : 
+# 3.1 : 
 float noiseScale = 0.002f + (float)Math.Pow(deltaNormalized, 0.2f) * 0.40f;
 
 float noisyYawDiff = YawDifferenceFinal + randomFloat(-1f, 1f) * noiseScale;
